@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="mobilenav">
+        <div class="mobilenav__inner">
+            <div class="top-mobilenav">
+                <h3>Menu</h3>
+            </div>
+            <div class="menu-mobilenav-container">
+                <ul class="mobile-menu">
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            <i class="fas fa-home"></i> Trang chủ
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Sản phẩm mới
+                        </a>
+                    </li>
+                    <li class="menu-item has-child">
+                        <a href="" class="menu-item-link">
+                            Giày
+                        </a>
+                        <span class="arrow"></span>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày cao nam</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày công sở</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày thể thao</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày thiết kế</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày cao cấp</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Dép da
+                        </a>
+                    </li>
+                    <li class="menu-item has-child">
+                        <a href="" class="menu-item-link">
+                            Phụ kiện
+                        </a>
+                        <span class="arrow"></span>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Ví</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Thắt lưng</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Phụ kiện khác</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Tra cứu
+                        </a>
+                    </li>
+                    <li class="menu-item has-child">
+                        <a href="" class="menu-item-link">
+                            Tin tức
+                        </a>
+                        <span class="arrow"></span>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Về shop</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Nghiện giày</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Đàn ông thông minh</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Khuyến mãi
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Chính sách khách hàng
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="layer"></div>
+    </nav>
+    <div class="app">
+
+        <!-- Header -->
+        <header class="site-header">
+            <div class="header">
+                <div class="container">
+                    <div class="header-content">
+                        <a id="show-menu">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <div class="logo-header col-8 col-lg-2">
+                            <a class="logo">Men</a>
+                        </div>
+                        <div class="header-search col-lg-5">
+                            <div class="header-search-wrap">
+                                <input type="text" class="header-search-input" placeholder="Tìm kiếm sản phẩm...">
+                                <div class="search-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-contact col-lg-3">
+                            <div class="header-contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="header-contact-number">
+                                <h4>Hotline</h4>
+                                <p>0963.646.444 - 0968.592.4444</p>
+                            </div>
+                        </div>
+                        <div class="cart col-1 col-lg-2">
+                            <i class="fas fa-shopping-cart"><span id="cart-product">1</span></i>
+                            <div class="cart-info">
+                                <h3>Giỏ hàng</h3>
+                                <p>0 sản phẩm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navbar -->
+
+        <div class="container-fluid bg-black">
+            <div class="container">
+                <div class="navigation">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link"><i class="fas fa-home"></i>Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Sản phẩm mới</a>
+                        </li>
+                        <li class="nav-item nav-has-child">
+                            <a href="" class="nav-item-link">
+                                Giày
+                            </a>
+                            <span class="nav-arrow"></span>
+                            <ul class="nav-sub-menu">
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày cao nam</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày công sở</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày thể thao</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày thiết kế</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày cao cấp</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Dép da</a>
+                        </li>
+                        <li class="nav-item nav-has-child">
+                            <a href="" class="nav-item-link">
+                                Phụ kiện
+                            </a>
+                            <span class="nav-arrow"></span>
+                            <ul class="nav-sub-menu">
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Ví</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Thắt lưng</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Phụ kiện khác</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Tra cứu</a>
+                        </li>
+                        <li class="nav-item nav-has-child">
+                            <a href="" class="nav-item-link">
+                                Tin tức
+                            </a>
+                            <span class="nav-arrow"></span>
+                            <ul class="nav-sub-menu" style="width: 250px;">
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Về shop</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Nghiện giày</a></li>
+                                <li class="sub-nav-item"><a href="" class="nav-item-link">Đàn ông thông minh</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <button id="btn-dang-nhap" href="" class="nav-item-link">Đăng kí</button>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-item-link">Chính sách khách hàng</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+
+        <div class="banner">
+            <div class="banner-container">
+                <div class="banner-container-img">
+                    <img src="./images/banner1.jpg" alt="" class="banner-img">
+                    <img src="./images/banner2.jpg" alt="" class="banner-img">
+                    <img src="./images/banner3.jpg" alt="" class="banner-img">
+                </div>
+                <div class="banner-btn-left banner-btn">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="banner-btn-right banner-btn">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <ul class="section-ul row">
+                    <li class="section-list col-4">
+                        <a href="" class="section-list-link">
+                            <p>Giày</p><img src="./images/giay.jpg" alt="" class="section-list-link-img"></a>
+                    </li>
+                    <li class="section-list col-4">
+                        <a href="" class="section-list-link">
+                            <p>Dép</p><img src="./images/dep.jpg" alt="" class="section-list-link-img"></a>
+                    </li>
+                    <li class="section-list col-4">
+                        <a href="" class="section-list-link">
+                            <p>Phụ kiện</p><img src="./images/pk.jpg" alt="" class="section-list-link-img"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="products">
+            <div class="products-header">
+                <h1>Sản phẩm của chúng tôi</h1>
+            </div>
+            <div class="shoes">
+                <h2>Giày</h2>
+                <div class="shoes-container">
+                    <div class="container container-shoes">
+                        <div class="row-shoes">
+                            <div class="product-shoes col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-01
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe2.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-02
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe3.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-03
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe4.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-04
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe5.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-05
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe6.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-06
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe7.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-07
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe8.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-08
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-shoes col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-shoes-content">
+                                    <a href="">
+                                        <img class="shoes-img" src="./images/shoe9.jpg" alt="">
+                                    </a>
+                                    <a class="shoes-name">
+                                        Men-09
+                                    </a>
+                                    <p class="shoes-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="shoes-btn-left shoes-btn-move shoes-btn-none-active">
+                            <i class="fas fa-chevron-circle-left"></i>
+                        </a>
+                        <a class="shoes-btn-right shoes-btn-move">
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <button class="shoes-btn">
+                    Xem tất cả
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <!-- Phu kien -->
+
+            <div class="phu-kien">
+                <h2>Phụ kiện</h2>
+                <div class="phu-kien-container">
+                    <div class="container container-phu-kien">
+                        <div class="row-phu-kien">
+                            <div class="product-phu-kien col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-phu-kien-content">
+                                    <a href="">
+                                        <img class="phu-kien-img" src="./images/phuKien1.jpg" alt="">
+                                    </a>
+                                    <a class="phu-kien-name">
+                                        Men-01
+                                    </a>
+                                    <p class="phu-kien-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-phu-kien  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-phu-kien-content">
+                                    <a href="">
+                                        <img class="phu-kien-img" src="./images/phuKien2.jpg" alt="">
+                                    </a>
+                                    <a class="phu-kien-name">
+                                        Men-02
+                                    </a>
+                                    <p class="phu-kien-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-phu-kien  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-phu-kien-content">
+                                    <a href="">
+                                        <img class="phu-kien-img" src="./images/phuKien3.jpg" alt="">
+                                    </a>
+                                    <a class="phu-kien-name">
+                                        Men-03
+                                    </a>
+                                    <p class="phu-kien-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-phu-kien  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-phu-kien-content">
+                                    <a href="">
+                                        <img class="phu-kien-img" src="./images/phuKien4.jpg" alt="">
+                                    </a>
+                                    <a class="phu-kien-name">
+                                        Men-04
+                                    </a>
+                                    <p class="phu-kien-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-phu-kien col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-phu-kien-content">
+                                    <a href="">
+                                        <img class="phu-kien-img" src="./images/phuKien5.jpg" alt="">
+                                    </a>
+                                    <a class="phu-kien-name">
+                                        Men-05
+                                    </a>
+                                    <p class="phu-kien-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-phu-kien col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-phu-kien-content">
+                                    <a href="">
+                                        <img class="phu-kien-img" src="./images/phuKien6.jpg" alt="">
+                                    </a>
+                                    <a class="phu-kien-name">
+                                        Men-06
+                                    </a>
+                                    <p class="phu-kien-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="phu-kien-btn-left phu-kien-btn-move phu-kien-btn-none-active">
+                            <i class="fas fa-chevron-circle-left"></i>
+                        </a>
+                        <a class="phu-kien-btn-right phu-kien-btn-move">
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <button class="phu-kien-btn">
+                    Xem tất cả
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <!-- All product -->
+            <div class="all-product">
+                <h2>Tất cả sản phẩm</h2>
+                <div class="all-product-container">
+                    <div class="container container-all-product">
+                        <div class="row-all-product">
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe1.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-01
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe2.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-02
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe3.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-03
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe4.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-04
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe5.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-05
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe6.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-06
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe7.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-07
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe8.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-08
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/shoe9.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-09
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/phuKien1.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-01
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/phuKien2.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-02
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/phuKien3.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-03
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product  col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/phuKien4.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-04
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/phuKien5.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-05
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product-all-product col-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="product-all-product-content">
+                                    <a href="">
+                                        <img class="all-product-img" src="./images/phuKien6.jpg" alt="">
+                                    </a>
+                                    <a class="all-product-name">
+                                        Men-06
+                                    </a>
+                                    <p class="all-product-price">
+                                        790.000đ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="all-product-btn-left all-product-btn-move all-product-btn-none-active">
+                            <i class="fas fa-chevron-circle-left"></i>
+                        </a>
+                        <a class="all-product-btn-right all-product-btn-move">
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <button class="all-product-btn">
+                    Xem tất cả
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <!-- Tin tuc -->
+            <div class="news">
+                <div class="news-header">
+                    <h1>Tin tức</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="news-content">
+                                <div class="img-news">
+                                    <img src="./images/mua-dep-da-300x200.png" alt="">
+                                </div>
+                                <a class="news-name">
+                                    Địa chỉ mua dép da nam giá rẻ, đảm bảo chất lượng
+                                </a>
+                                <div class="news-date-view">
+                                    <div class="news-date">
+                                        <i class="far fa-calendar-alt"></i> 26/04/2021 14:23
+                                    </div>
+                                    <div class="news-view">
+                                        <i class="fas fa-eye"></i> 32 lượt xem
+                                    </div>
+                                </div>
+                                <div class="news-description">
+                                    <p>
+                                        Nhu cầu mua dép da ngày càng tăng cao, đặc biệt là trong mùa hè nóng bức. Tuy nhiên, để sở hữu một đôi dép da nam chất lượng, giá cả phù …
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="news-content">
+                                <div class="img-news">
+                                    <img src="./images/phoi-do-voi-dep-300x200.jpg" alt="">
+                                </div>
+                                <a class="news-name">
+                                    Cách phối đồ với dép cực đẹp và thời trang
+                                </a>
+                                <div class="news-date-view">
+                                    <div class="news-date">
+                                        <i class="far fa-calendar-alt"></i> 26/04/2021 14:23
+                                    </div>
+                                    <div class="news-view">
+                                        <i class="fas fa-eye"></i> 32 lượt xem
+                                    </div>
+                                </div>
+                                <div class="news-description">
+                                    <p>
+                                        Nhiều anh chàng băn khoăn về cách phối đồ với dép làm sao để đảm bảo thời trang và sành điệu. Bởi thời tiết nắng nóng luôn khiến họ khó chịu …
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="news-content">
+                                <div class="img-news">
+                                    <img src="./images/khai-truong-tru-so-chinh-va-van-phong-kieu-mau-smartmen-300x200.png" alt="">
+                                </div>
+                                <a class="news-name">
+                                    Tưng bừng khai trương Smartmen’s Office
+                                </a>
+                                <div class="news-date-view">
+                                    <div class="news-date">
+                                        <i class="far fa-calendar-alt"></i> 26/04/2021 14:23
+                                    </div>
+                                    <div class="news-view">
+                                        <i class="fas fa-eye"></i> 32 lượt xem
+                                    </div>
+                                </div>
+                                <div class="news-description">
+                                    <p>
+                                        Ngày 26/03/2020, Smartmen tưng bừng khai trương Trụ sở chính và cửa hàng kiểu mẫu tại 172 Phú Diễn, Quận Bắc Từ Liêm, TP Hà Nội. Sự kiện này …
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="news-content">
+                                <div class="img-news">
+                                    <img src="./images/di-giay-cao-smartmen-khong-dau-chan-300x200.jpg" alt="">
+                                </div>
+                                <a class="news-name">
+                                    Giày cao Smartmen có gây đau chân không?
+                                </a>
+                                <div class="news-date-view">
+                                    <div class="news-date">
+                                        <i class="far fa-calendar-alt"></i> 26/04/2021 14:23
+                                    </div>
+                                    <div class="news-view">
+                                        <i class="fas fa-eye"></i> 32 lượt xem
+                                    </div>
+                                </div>
+                                <div class="news-description">
+                                    <p>
+                                        Chiều cao luôn là mối quan tâm của nhiều người, đặc biệt là cánh mày râu. Khi có một chiều cao lý tưởng, bạn sẽ cảm thấy tự tin và lợi thế …
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custommer -->
+
+            <div class="custommer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 center">
+                            <div class="custommer-header">
+                                <h2>Khách hàng nói về chúng tôi</h2>
+                            </div>
+                            <div class="custommer-wrap">
+                                <div class="custommer-container">
+                                    <div class="custommer-container-img">
+                                        <div class="container-img">
+                                            <div class="custommer-img">
+                                                <img src="./images/mc-nguyen-khang-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img custommer-left" id="first">
+                                            <div class="custommer-img">
+                                                <img src="./images/Dien-vien-Manh-Quan-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img custommer-active">
+                                            <div class="custommer-img">
+                                                <img src="./images/tuan-tien-ti-1-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img custommer-right">
+                                            <div class="custommer-img">
+                                                <img src="./images/Tien-si-le-tham-duong-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img">
+                                            <div class="custommer-img">
+                                                <img src="./images/Tun-Pham-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img">
+                                            <div class="custommer-img">
+                                                <img src="./images/tung-hoa-mi-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img">
+                                            <div class="custommer-img">
+                                                <img src="./images/mc-nguyen-khang-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img">
+                                            <div class="custommer-img">
+                                                <img src="./images/Dien-vien-Manh-Quan-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img" id="last">
+                                            <div class="custommer-img">
+                                                <img src="./images/tuan-tien-ti-1-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="container-img custommer-right">
+                                            <div class="custommer-img">
+                                                <img src="./images/Tien-si-le-tham-duong-150x150.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a class="btn-custommer-left">
+                                    <i class="fas fa-caret-left"></i>
+                                </a>
+                                <a class="btn-custommer-right">
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                            </div>
+                            <div class="custommer-comment">
+                                <div class="custommer-comment-container">
+                                    <div class="comment" id="first-comment">
+                                        <h3>Diễn viên Mạnh Quân</h3>
+                                        <p>Nghề nghiệp chính của tôi là diễn viên, vì thế ngoại hình đóng vai trò rất quan trọng, đặc biệt là về chiều cao. Và các sản phẩm của Smartmen khiến tôi rất hài lòng ở công dụng tăng chiều cao mà không hề lộ dáng,
+                                            lại cực kỳ êm chân khi di chuyển. Chính điều đó giúp tôi tự tin hơn trong mọi hoàn cảnh.</p>
+                                    </div>
+                                    <div class="comment">
+                                        <h3>Streamer Tuấn Tiền Tỉ</h3>
+                                        <p>Giày Smartmen mang kiểu dáng trẻ trung, năng động, êm, bền đẹp. Đế cao su rất nhẹ, chắc chân, lại giúp cao từ 3 – 5cm. Giày da bò chất lượng, được bảo hành tận 12 tháng mà giá lại còn hợp lý. Là đàn ông, hãy cao
+                                            bằng giày của Smartmen để nâng tầm nhìn của mình các Sếp ạ. </p>
+                                    </div>
+                                    <div class="comment">
+                                        <h3>Tiến sĩ Lê Thẩm Dương</h3>
+                                        <p>Tôi hài lòng đến mức tuyệt đối ở dịch vụ. Tôi đến với Smartmen đầu tiên ở sự giải thích, chăm sóc và sau đó là toàn bộ quá trình hậu mãi. Chất lượng, dịch vụ, chăm sóc là 3 điểm tuyệt vời mà tôi muốn chia sẻ với
+                                            các bạn về Smartmen</p>
+                                    </div>
+                                    <div class="comment">
+                                        <h3>Vlogger Tun Phạm</h3>
+                                        <p>Mình rất thích sử dụng giày Smartmen vì thiết kế trẻ trung, năng động nhất là những mẫu giày thể thao. Mình có thể dễ dàng lựa chọn được nhiều mẫu giày phù hợp với độ tuổi và phong cách.</p>
+                                    </div>
+                                    <div class="comment">
+                                        <h3>BLV Tùng Họa Mi</h3>
+                                        <p> đầu, mình ấn tượng đến Smartmen là nhờ qua đặc điểm giày cao. Bởi với mình, chiều cao là yếu tố khá quan trọng và nó đập ngay vào mắt người đối diện. Bản thân mình nhận thấy, Smartmen dần dần cải tiến thêm nhiều
+                                            yếu tố khác để sản phẩm đạt chất lượng tốt hơn.</p>
+                                    </div>
+                                    <div class="comment">
+                                        <h3>MC Nguyên Khang</h3>
+                                        <p>Theo cảm nhận của Nguyên Khang thì Smartmen là một lựa chọn rất là tuyệt vời dành cho các nam giới trong việc chăm sóc đôi chân của mình. Bạn sẽ có nhiều sự lựa chọn khi đến với Smartmen, từ những đôi giày thể thao
+                                            đến giày tây. Và Khang thì Khang chọn Smartmen và Khang cũng hy vọng quý vị và các bạn sẽ lựa chọn được một sản phẩm ưng ý khi đến với Smartmen.</p>
+                                    </div>
+                                    <div class="comment">
+                                        <h3>Diễn viên Mạnh Quân</h3>
+                                        <p>Nghề nghiệp chính của tôi là diễn viên, vì thế ngoại hình đóng vai trò rất quan trọng, đặc biệt là về chiều cao. Và các sản phẩm của Smartmen khiến tôi rất hài lòng ở công dụng tăng chiều cao mà không hề lộ dáng,
+                                            lại cực kỳ êm chân khi di chuyển. Chính điều đó giúp tôi tự tin hơn trong mọi hoàn cảnh.</p>
+                                    </div>
+                                    <div class="comment" id="last-comment">
+                                        <h3>Streamer Tuấn Tiền Tỉ</h3>
+                                        <p>Giày Smartmen mang kiểu dáng trẻ trung, năng động, êm, bền đẹp. Đế cao su rất nhẹ, chắc chân, lại giúp cao từ 3 – 5cm. Giày da bò chất lượng, được bảo hành tận 12 tháng mà giá lại còn hợp lý. Là đàn ông, hãy cao
+                                            bằng giày của Smartmen để nâng tầm nhìn của mình các Sếp ạ. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-banner">
+                <div class="container">
+                    <a href="">Xem địa chỉ hệ thống đại lý & Showroom</a>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-3 contact-content">
+                            <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                            <p>Hướng dẫn chọn size</p>
+                            <p>Chính sách khách hàng</p>
+                            <p>Câu hỏi thường gặp</p>
+                        </div>
+                        <div class="col-3 contact-content">
+                            <h4>Về chúng tôi</h4>
+                            <p>Giới thiệu</p>
+                            <p href="">Liên hệ</p>
+                        </div>
+                        <div class="col-3 contact-content">
+                            <h4>Hệ thống cửa hàng</h4>
+                            <p href="">Hệ thống 10 cửa hàng</p>
+                        </div>
+                        <div class="col-3 contact-content">
+                            <h4>Fanpage chúng tôi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer container-fluid bg-footer">
+                <p>
+                    © 2020 Bản quyền thuộc về MEN. - Thiết kế website trọn gói bởi Kira
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-header">
+                Đăng kí
+            </div>
+
+            <div class="modal-body">
+                <label for="username" class="modal-label">
+                    <i class="fas fa-user"></i>
+                    Tài khoản
+                </label>
+                <input id="username" type="text" class="modal-input" placeholder="Tài khoản">
+                <label for="password" class="modal-label">
+                    <i class="fas fa-lock"></i>
+                    Mật khẩu
+                </label>
+                <input id="password" type="text" class="modal-input" placeholder="Mật khẩu">
+                <button id="dang-nhap">
+                    Đăng nhập
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

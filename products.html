@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/products.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="mobilenav">
+        <div class="mobilenav__inner">
+            <div class="top-mobilenav">
+                <h3>Menu</h3>
+            </div>
+            <div class="menu-mobilenav-container">
+                <ul class="mobile-menu">
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            <i class="fas fa-home"></i> Trang chủ
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Sản phẩm mới
+                        </a>
+                    </li>
+                    <li class="menu-item has-child">
+                        <a href="" class="menu-item-link">
+                            Giày
+                        </a>
+                        <span class="arrow"></span>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày cao nam</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày công sở</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày thể thao</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày thiết kế</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Giày cao cấp</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Dép da
+                        </a>
+                    </li>
+                    <li class="menu-item has-child">
+                        <a href="" class="menu-item-link">
+                            Phụ kiện
+                        </a>
+                        <span class="arrow"></span>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Ví</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Thắt lưng</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Phụ kiện khác</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Tra cứu
+                        </a>
+                    </li>
+                    <li class="menu-item has-child">
+                        <a href="" class="menu-item-link">
+                            Tin tức
+                        </a>
+                        <span class="arrow"></span>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Về shop</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Nghiện giày</a></li>
+                            <li class="menu-item"><a href="" class="sub-menu-item-link">Đàn ông thông minh</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Khuyến mãi
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">
+                            Chính sách khách hàng
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="layer"></div>
+    </nav>
+    <div class="app">
+
+        <!-- Header -->
+        <header class="site-header">
+            <div class="header">
+                <div class="container">
+                    <div class="header-content">
+                        <a id="show-menu">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <div class="logo-header col-8 col-lg-2">
+                            <a class="logo">Men</a>
+                        </div>
+                        <div class="header-search col-lg-5">
+                            <div class="header-search-wrap">
+                                <input type="text" class="header-search-input" placeholder="Tìm kiếm sản phẩm...">
+                                <div class="search-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-contact col-lg-3">
+                            <div class="header-contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="header-contact-number">
+                                <h4>Hotline</h4>
+                                <p>0963.646.444 - 0968.592.4444</p>
+                            </div>
+                        </div>
+                        <div class="cart col-1 col-lg-2">
+                            <i class="fas fa-shopping-cart"><span id="cart-product">1</span></i>
+                            <div class="cart-info">
+                                <h3>Giỏ hàng</h3>
+                                <p>0 sản phẩm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navbar -->
+
+        <div class="container-fluid bg-black">
+            <div class="container">
+                <div class="navigation">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link"><i class="fas fa-home"></i>Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Sản phẩm mới</a>
+                        </li>
+                        <li class="nav-item nav-has-child">
+                            <a href="" class="nav-item-link">
+                                Giày
+                            </a>
+                            <span class="nav-arrow"></span>
+                            <ul class="nav-sub-menu">
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày cao nam</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày công sở</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày thể thao</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày thiết kế</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Giày cao cấp</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Dép da</a>
+                        </li>
+                        <li class="nav-item nav-has-child">
+                            <a href="" class="nav-item-link">
+                                Phụ kiện
+                            </a>
+                            <span class="nav-arrow"></span>
+                            <ul class="nav-sub-menu">
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Ví</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Thắt lưng</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Phụ kiện khác</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Tra cứu</a>
+                        </li>
+                        <li class="nav-item nav-has-child">
+                            <a href="" class="nav-item-link">
+                                Tin tức
+                            </a>
+                            <span class="nav-arrow"></span>
+                            <ul class="nav-sub-menu" style="width: 250px;">
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Về shop</a></li>
+                                <li class="sub-nav-item"><a href="" class="sub-nav-item-link">Nghiện giày</a></li>
+                                <li class="sub-nav-item"><a href="" class="nav-item-link">Đàn ông thông minh</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-item-link">Khuyến mãi</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-item-link">Chính sách khách hàng</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="products">
+            <div class="products-header">
+                <h1>Giày</h1>
+            </div>
+            <div class="shoe-prd">
+                <div class="container">
+                    <div class="row">
+                        <div class="prd-filter col-lg-3">
+                            <div class="prd-filter-container">
+                                <div class="prd-filter-title">
+                                    <p>Danh mục</p>
+                                </div>
+                                <div class="prd-filter-content">
+                                    <div class="prd-filter-content-container">
+                                        <form action="">
+                                            <div class="prd-filter-choise">
+                                                <label for="">Giày</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Dép da</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Sản phẩm mới</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Phụ kiện</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Sản phẩm </label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Sản phẩm</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Thời trang</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prd-filter-container">
+                                <div class="prd-filter-title">
+                                    <p>Kích cỡ</p>
+                                </div>
+                                <div class="prd-filter-content">
+                                    <div class="prd-filter-content-container">
+                                        <form action="">
+                                            <div class="prd-filter-choise">
+                                                <label for="">38</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">39</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">40</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">41</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">42</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">43</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prd-filter-container">
+                                <div class="prd-filter-title">
+                                    <p>Sắp xếp theo</p>
+                                </div>
+                                <div class="prd-filter-content">
+                                    <div class="prd-filter-content-container">
+                                        <form action="">
+                                            <div class="prd-filter-choise">
+                                                <label for="">Sale</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Mới nhất</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Giá tăng dần</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="prd-filter-choise">
+                                                <label for="">Giá giảm dần</label>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="all-shoe col-lg-9 col-12">
+                            <div class="prd-des">
+                                <p>Dép da nam Smartmen sử dụng chất liệu da bò cao cấp nên có độ bền đẹp cao. Đặc biệt, chất da này có khả năng chống nước nên có thể sử dụng ngay cả trong mùa mưa.</p>
+                                <p>Đế dép da được làm từ cao su cao cấp mang lại cảm giác êm chân và có độ bền cao. Đặc biệt, đế được thiết kế các đường vân giúp tăng khả năng ma sát, chống trơn trượt hay mài mòn trong quá trình sử dụng.</p>
+                                <p>Mẫu dép da Smartmen được thiết đa dạng về kiểu dáng và màu sắc nên bạn có thể dễ dàng lựa chọn và sử dụng trong nhiều hoàn cảnh khác nhau.</p>
+                            </div>
+                            <div class="prd-container">
+                                <div class="row">
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                    <div class="product-shoes col-4">
+                                        <div class="product-shoes-content">
+                                            <a href="">
+                                                <img class="shoes-img" src="./images/shoe1.jpg" alt="">
+                                            </a>
+                                            <a class="shoes-name">
+                                                Men-01
+                                            </a>
+                                            <p class="shoes-price">
+                                                790.000đ
+                                            </p>
+                                            <button class="btn-add-to-cart">Thêm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="home-banner">
+                <div class="container">
+                    <a href="">Xem địa chỉ hệ thống đại lý & Showroom</a>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-3 contact-content">
+                            <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                            <p>Hướng dẫn chọn size</p>
+                            <p>Chính sách khách hàng</p>
+                            <p>Câu hỏi thường gặp</p>
+                        </div>
+                        <div class="col-3 contact-content">
+                            <h4>Về chúng tôi</h4>
+                            <p>Giới thiệu</p>
+                            <p href="">Liên hệ</p>
+                        </div>
+                        <div class="col-3 contact-content">
+                            <h4>Hệ thống cửa hàng</h4>
+                            <p href="">Hệ thống 10 cửa hàng</p>
+                        </div>
+                        <div class="col-3 contact-content">
+                            <h4>Fanpage chúng tôi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer container-fluid bg-footer">
+                <p>
+                    © 2020 Bản quyền thuộc về MEN. - Thiết kế website trọn gói bởi Kira
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
